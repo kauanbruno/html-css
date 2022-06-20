@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/*
+ao usar ":root", se pode criar "variaveis", setando um nome padrão para cada parte do design. facilita na hora de mudar as cores e fontes do site, pois é só trocar na raiz e muda em todos os lugares indicados por aquela variável. o equivalente em css da classe em html.
+
+ao usar * é possível criar configurações globais em css, que serão aplicadas em todo o escopo do site.
+*/
+
+:root {
+    --cor1: black;
+    --cor2: white;
+    --fonte01: arial, serif
+}
+
+body {
+  background-image: linear-gradient(110deg, var(--cor1), gray);
+  background-attachment: fixed;
+  color: var(--cor2);
+  text-align: center;
+  font-family: var(--fonte01);
+}
+table,th,td {
+  border: 1px solid var(--cor2);
+  text-align: justify;
+}
+
+table {
+  text-align: center;
+  margin: auto;
+}

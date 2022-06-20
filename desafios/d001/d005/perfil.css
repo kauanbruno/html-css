@@ -1,0 +1,30 @@
+h1, h2 {
+    text-align: end;
+}
+
+.pfp {
+    border: 5px black;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 43%;
+}
+
+p, h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding: 15px;
+}
+
+body {
+    background-color: rgb(6, 5, 7);
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+.elementos {
+    text-decoration: none;
+    color:white;
+}
