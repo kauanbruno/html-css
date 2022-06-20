@@ -12,7 +12,7 @@ nav {
 header {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    padding: 32px;
+    margin: auto;
 }
 
 main {
@@ -53,10 +53,7 @@ li a {
     border-radius: 25%;
 }
 
-.cereja {
+img {
     display: flex;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    padding: ;
+    margin: auto;
 }
