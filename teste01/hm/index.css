@@ -1,3 +1,7 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
 body {
     background-color: rgb(21, 20, 20);
 }
@@ -54,5 +58,5 @@ li a {
     align-items: center;
     width: 40px;
     height: 40px;
-    padding: 90px;
+    padding: ;
 }
