@@ -56,4 +56,5 @@ li a {
 img {
     display: flex;
     margin: auto;
+    padding: 16px;
 }
